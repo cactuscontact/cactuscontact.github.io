@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic Page - Massively by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+					
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li><a href="index.html">Projects</a></li>
+							<li class="active"><a href="fpga.html">scrolling display</a></li>
+							<li><a href="chess.html">chess Board</a></li>
+						</ul>
+						<ul class="icons alt">
+							<li><a href="https://www.linkedin.com/in/joellerner-ee" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+							<li><a href="https://github.com/cactuscontact" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+						</ul></ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+								
+									<h1>FPGA configurable<br />
+										Scrolling display</h1>
+									
+									</header>
+									<div class="text-section">
+										<h2>What?</h2>
+										<p>•	Design a finite state machine allowing for 4 different scrolling configurations on the FPGAs' 8 hex displays</p>
+										<p>•	The user should be able to select modes using the switches and pause/stop using the keys</p>
+										</div>
+									<div class="image left"><img src="images/pic03.jpg" alt="" /></div>
+									
+								
+									
+									<div><span style="padding-left:30px;"></span></div>
+									<div><span style="padding-left:30px;"></span></div>
+									<div><span style="padding-left:30px;"></span></div>
+									<div><span style="padding-left:30px;"></span></div>
+									<div><span style="padding-left:30px;"></span></div>
+									<div><span style="padding-left:30px;"></span></div>
+									<div><span style="padding-left:30px;"></span></div>
+									<div><span style="padding-left:30px;"></span></div>
+									<div><span style="padding-left:30px;"></span></div>
+
+									<div class="text-section">
+									<h2>How?</h2>
+									<p>•	Created scheduler component to run the finite state machine using vhdl</p>
+									<p>•	Created control components to use instructions from scheduler to create the individual display patterns</p>
+									<p>•	created extra components to handle input/output such as switch debouncers and segment decoders</p>	
+								
+									<div class="image left"><img src="images/SMDB_blk.png" alt="" /></div>
+									<div><span style="padding-left:30px;"></span></div>
+									<div><span style="padding-left:30px;"></span></div>
+									
+
+									<div class="image right"><img src="images/ASIP_blk.png" alt=""/></div>
+						
+
+
+
+
+
+	
+									
+									<div class="text-section">
+										<h2>Results</h2>
+										<p>•	Functional scrolling hex display with 4 settings controlled via user inputs</p>
+										<p>•	Additional ability for the user to change speeds, pause and stop the program</p>
+										<p>•	Modular + hierarchical design allows for easy future expansion and component re-use in future projects</p>	
+							
+										</div>
+									<div class="image fit"><img src="images/both2.jpg" alt="" /></div>
+									<div><span style="padding-left:30px;"></span></div>
+								
+									
+								<div class="text-section">
+									<h2>Code</h2>
+									<ul class="icons button">
+									<li><a href="https://github.com/cactuscontact/Configurable_hex_display" class="icon brands alt fa-github"><span class="label">GitHub</span>see code</a></li>
+									</ul>
+									</div>
+								</section>
+
+					</div>
+
+<!-- Footer -->
+<footer id="footer">
+	<section>
+		
+	<section class="split contact">
+		
+		<section>
+			<h3>Phone</h3>
+			<p><a href="#">(778) 954-7335</a></p>
+		</section>
+		<section>
+			<h3>Email</h3>
+			<p><a href="#">jbl16@sfu.ca</a></p>
+		</section>
+		<section>
+			<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://www.linkedin.com/in/joellerner-ee" class="icon brands alt fa-linkedin"><span class="label">linkedin</span></a></li>
+								<li><a href="https://github.com/cactuscontact" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+		</section>
+	</section>
+</footer>
+
+				
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
